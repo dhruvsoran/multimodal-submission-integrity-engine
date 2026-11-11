@@ -1,0 +1,50 @@
+{
+  "document_id": "submission_03.pdf",
+  "total_integrity_risk": "LOW",
+  "scores": {
+    "peer_similarity_percentage": 51.0,
+    "external_similarity_percentage": 0.0,
+    "ai_generated_probability": 38.1
+  },
+  "peer_matches": [],
+  "multimodal_matches": [
+    {
+      "matched_file": "pitch_12.mp4",
+      "similarity_score": 0.853,
+      "query_passage": "Restructuring the Bus Network Before the Congestion Trial Executive Summary The bus network restructure is fundable this year and the congestion pilot is not ready, so the sequencing question answers itself. We recommend fixing the airport corridor contract first, then holding the charging trial until after the council elections. Analysis Operating margins for the city bus network contracted by 4.2 percent over the last three quarters because of rising driver wages and fuel costs, while ridership on the airport corridor grew by eleven percent after the express line opened. The depot electrification pilot reduced maintenance outlays by nine percent, but charging downtime still erodes those savings during peak service hours. Any restructuring of routes must therefore protect the airport corridor, which now generates a disproportionate share of network revenue.",
+      "matched_passage": "Good afternoon, panel members. My name is Alex, and I am presenting our team's mobility proposal for the Corridor review. Operating margins for the City Bus Network contracted by 4 .2 % over the last three quarters because of rising driver wages and fuel costs, while ridership on the airport corridor grew by 11 % after the express line opened. The Depot electrification pilot reduced maintenance outlays by 9%, but charging downtime still erodes those savings during peak service hours. Any restructuring of routes must therefore protect the airport corridor, which now generates a disproportionate chair of network revenue. Thank you for listening.",
+      "location": {
+        "query_page": 1,
+        "matched_timestamp": "00:00:00 - 00:00:38"
+      },
+      "lexical_jaccard": 0.543,
+      "query_chunk_id": "submission_03.pdf#c000",
+      "matched_chunk_id": "pitch_12.mp4#c000"
+    }
+  ],
+  "explanations": "Peer overlap: 51% of this document aligns with pitch_12.mp4 (strongest passage similarity 0.85, source timestamp 00:00:00 - 00:00:38). A case-prompt/header template shared across 11 submissions was detected and discounted (256 boilerplate words excluded from scoring). No external reference overlap above threshold. AI-content estimate 38% (heuristic-burstiness: sentence-length variation 0.47 (low = uniform/AI-like), discourse-marker density 0.3/100 words). Verify the cited passages below against the source files before applying any penalty.",
+  "external_matches": [],
+  "boilerplate_discount": {
+    "chunks": 5,
+    "words": 256,
+    "files_sharing_template": 11
+  },
+  "processing": {
+    "modality": "pdf",
+    "chunks": 7,
+    "language": null,
+    "duration_seconds": null,
+    "pages_estimated": 2,
+    "warnings": [],
+    "error": null,
+    "embedding_backend": "sentence-transformers",
+    "ai_backend": "heuristic-burstiness",
+    "ai_features": {
+      "sentence_length_cv": 0.471,
+      "transitions_per_100_words": 0.28,
+      "contractions": 0,
+      "polished_punct_per_100w": 0.56,
+      "first_person_hits": 0
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "document_id": "submission_06.pdf",
+  "total_integrity_risk": "MEDIUM",
+  "scores": {
+    "peer_similarity_percentage": 0.0,
+    "external_similarity_percentage": 52.2,
+    "ai_generated_probability": 36.2
+  },
+  "peer_matches": [],
+  "multimodal_matches": [],
+  "explanations": "No peer overlap above threshold was found in the corpus. A case-prompt/header template shared across 11 submissions was detected and discounted (256 boilerplate words excluded from scoring). External reference overlap: 52% - closest source ev_charging_infrastructure.txt (similarity 0.89). AI-content estimate 36% (heuristic-burstiness: sentence-length variation 0.46 (low = uniform/AI-like), discourse-marker density 0.0/100 words). Verify the cited passages below against the source files before applying any penalty.",
+  "external_matches": [
+    {
+      "matched_source": "ev_charging_infrastructure.txt",
+      "similarity_score": 0.892,
+      "query_passage": "Network operators generally adopt one of two business models. In the asset-owner model, the operator finances, builds and maintains the stations and earns revenue from electricity sales and usage fees. In the franchise model, site hosts such as retailers or fuel stations own the hardware and pay the network operator for software, billing services and roaming access. Revenue per station depends heavily on utilisation, and industry analysis suggests that most public stations require utilisation above fifteen percent to reach breakeven. Grid integration is a central planning concern. Unmanaged charging can coincide with evening demand peaks and force costly network upgrades, so utilities increasingly deploy smart-charging programmes that shift load to overnight periods or solar-rich hours. Recommendation We recommend the franchise model for the first sixty stations, with the asset-owner model reserved for three highway plazas where utilisation risk is lowest.",
+      "matched_passage": "In the franchise model, site hosts such as retailers or fuel stations own the hardware and pay the network operator for software, billing services and roaming access. Revenue per station depends heavily on utilisation, and industry analysis suggests that most public stations require utilisation above fifteen percent to reach breakeven. Grid integration is a central planning concern. Unmanaged charging can coincide with evening demand peaks and force costly network upgrades, so utilities increasingly deploy smart-charging programmes that shift load to overnight periods or solar-rich hours. Vehicle-to-grid trials further allow parked vehicles to export electricity back to the grid during short-duration peaks, transforming commercial fleets into distributed storage assets.",
+      "location": {
+        "query_page": 1,
+        "source_section": 1
+      },
+      "lexical_jaccard": 0.591
+    }
+  ],
+  "boilerplate_discount": {
+    "chunks": 5,
+    "words": 256,
+    "files_sharing_template": 11
+  },
+  "processing": {
+    "modality": "pdf",
+    "chunks": 7,
+    "language": null,
+    "duration_seconds": null,
+    "pages_estimated": 2,
+    "warnings": [],
+    "error": null,
+    "embedding_backend": "sentence-transformers",
+    "ai_backend": "heuristic-burstiness",
+    "ai_features": {
+      "sentence_length_cv": 0.458,
+      "transitions_per_100_words": 0.0,
+      "contractions": 0,
+      "polished_punct_per_100w": 0.26,
+      "first_person_hits": 0
+    }
+  }
+}

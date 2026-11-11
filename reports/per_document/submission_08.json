@@ -1,0 +1,36 @@
+{
+  "document_id": "submission_08.docx",
+  "total_integrity_risk": "LOW",
+  "scores": {
+    "peer_similarity_percentage": 0.0,
+    "external_similarity_percentage": 0.0,
+    "ai_generated_probability": 33.1
+  },
+  "peer_matches": [],
+  "multimodal_matches": [],
+  "explanations": "No peer overlap above threshold was found in the corpus. A case-prompt/header template shared across 11 submissions was detected and discounted (273 boilerplate words excluded from scoring). No external reference overlap above threshold. AI-content estimate 33% (heuristic-burstiness: sentence-length variation 0.45 (low = uniform/AI-like), discourse-marker density 0.0/100 words). Verify the cited passages below against the source files before applying any penalty.",
+  "external_matches": [],
+  "boilerplate_discount": {
+    "chunks": 5,
+    "words": 273,
+    "files_sharing_template": 11
+  },
+  "processing": {
+    "modality": "docx",
+    "chunks": 6,
+    "language": null,
+    "duration_seconds": null,
+    "pages_estimated": 1,
+    "warnings": [],
+    "error": null,
+    "embedding_backend": "sentence-transformers",
+    "ai_backend": "heuristic-burstiness",
+    "ai_features": {
+      "sentence_length_cv": 0.454,
+      "transitions_per_100_words": 0.0,
+      "contractions": 1,
+      "polished_punct_per_100w": 0.34,
+      "first_person_hits": 0
+    }
+  }
+}

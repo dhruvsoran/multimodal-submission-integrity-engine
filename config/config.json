@@ -1,0 +1,40 @@
+{
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "whisper_model": "base",
+  "device": "cpu",
+  "chunk": {
+    "target_words": 120,
+    "overlap_words": 35,
+    "min_words": 12,
+    "mp4_target_words": 100,
+    "mp4_overlap_words": 25
+  },
+  "similarity": {
+    "match_threshold": 0.75,
+    "top_k_per_chunk": 5
+  },
+  "boilerplate": {
+    "similarity_threshold": 0.86,
+    "min_files": 3
+  },
+  "external": {
+    "match_threshold": 0.85,
+    "reference_dir": "reference_corpus"
+  },
+  "ai": {
+    "backend": "heuristic"
+  },
+  "risk": {
+    "weights": { "peer": 0.5, "external": 0.3, "ai": 0.2 },
+    "high": 60,
+    "medium": 35,
+    "pair_high_floor": 70,
+    "ai_medium_floor": 60,
+    "external_medium_floor": 50
+  },
+  "report": {
+    "max_peer_matches": 6,
+    "max_multimodal_matches": 6,
+    "max_passages_per_pair": 3
+  }
+}

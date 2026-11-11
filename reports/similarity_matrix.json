@@ -1,0 +1,113 @@
+{
+  "threshold": 0.75,
+  "metric": "coverage: % of row document aligned to column document",
+  "matrix": {
+    "pitch_12.mp4": {
+      "submission_03.pdf": 81.7,
+      "pitch_14.mp4": 0.0
+    },
+    "pitch_13.mp4": {},
+    "pitch_14.mp4": {
+      "submission_07.pdf": 0.0,
+      "submission_01.pdf": 0.0,
+      "submission_02.docx": 0.0,
+      "submission_04.docx": 0.0,
+      "submission_06.pdf": 0.0,
+      "submission_09.docx": 0.0,
+      "submission_03.pdf": 0.0,
+      "pitch_12.mp4": 0.0,
+      "submission_15.docx": 0.0,
+      "submission_08.docx": 0.0,
+      "submission_05.docx": 0.0
+    },
+    "submission_01.pdf": {
+      "submission_02.docx": 100.0,
+      "submission_06.pdf": 0.0,
+      "submission_04.docx": 0.0,
+      "submission_07.pdf": 0.0,
+      "pitch_14.mp4": 0.0,
+      "submission_03.pdf": 0.0,
+      "pitch_12.mp4": 0.0,
+      "submission_09.docx": 0.0
+    },
+    "submission_02.docx": {
+      "submission_01.pdf": 100.0,
+      "submission_06.pdf": 0.0,
+      "submission_04.docx": 0.0,
+      "submission_07.pdf": 0.0,
+      "pitch_14.mp4": 0.0,
+      "submission_03.pdf": 0.0,
+      "pitch_12.mp4": 0.0,
+      "submission_09.docx": 0.0
+    },
+    "submission_03.pdf": {
+      "pitch_12.mp4": 51.0,
+      "submission_06.pdf": 0.0,
+      "pitch_14.mp4": 0.0,
+      "submission_01.pdf": 0.0,
+      "submission_02.docx": 0.0
+    },
+    "submission_04.docx": {
+      "submission_09.docx": 100.0,
+      "submission_05.docx": 0.0,
+      "submission_01.pdf": 0.0,
+      "submission_02.docx": 0.0,
+      "submission_07.pdf": 0.0,
+      "submission_06.pdf": 0.0,
+      "pitch_14.mp4": 0.0,
+      "pitch_12.mp4": 0.0,
+      "submission_03.pdf": 0.0
+    },
+    "submission_05.docx": {
+      "submission_09.docx": 0.0,
+      "submission_04.docx": 0.0,
+      "submission_07.pdf": 0.0,
+      "submission_08.docx": 0.0,
+      "pitch_14.mp4": 0.0,
+      "pitch_12.mp4": 0.0
+    },
+    "submission_06.pdf": {
+      "submission_02.docx": 0.0,
+      "submission_01.pdf": 0.0,
+      "submission_03.pdf": 0.0,
+      "pitch_12.mp4": 0.0,
+      "pitch_14.mp4": 0.0,
+      "submission_04.docx": 0.0
+    },
+    "submission_07.pdf": {
+      "submission_04.docx": 0.0,
+      "submission_09.docx": 0.0,
+      "submission_02.docx": 0.0,
+      "submission_01.pdf": 0.0,
+      "pitch_14.mp4": 0.0,
+      "pitch_12.mp4": 0.0
+    },
+    "submission_08.docx": {
+      "submission_07.pdf": 0.0,
+      "pitch_12.mp4": 0.0
+    },
+    "submission_09.docx": {
+      "submission_04.docx": 100.0,
+      "submission_05.docx": 0.0,
+      "submission_07.pdf": 0.0,
+      "submission_01.pdf": 0.0,
+      "submission_02.docx": 0.0,
+      "submission_06.pdf": 0.0,
+      "pitch_14.mp4": 0.0,
+      "pitch_12.mp4": 0.0
+    },
+    "submission_10.docx": {},
+    "submission_11.pdf": {},
+    "submission_15.docx": {
+      "submission_03.pdf": 0.0,
+      "submission_05.docx": 0.0,
+      "submission_01.pdf": 0.0,
+      "submission_02.docx": 0.0,
+      "pitch_12.mp4": 0.0,
+      "pitch_14.mp4": 0.0,
+      "submission_04.docx": 0.0,
+      "submission_06.pdf": 0.0,
+      "submission_08.docx": 0.0
+    }
+  }
+}

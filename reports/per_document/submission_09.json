@@ -1,0 +1,63 @@
+{
+  "document_id": "submission_09.docx",
+  "total_integrity_risk": "HIGH",
+  "scores": {
+    "peer_similarity_percentage": 100.0,
+    "external_similarity_percentage": 0.0,
+    "ai_generated_probability": 49.2
+  },
+  "peer_matches": [
+    {
+      "matched_file": "submission_04.docx",
+      "similarity_score": 0.881,
+      "query_passage": "Turning Cooperative Sensor Data Into a Paying Product Executive Summary Last season, sensor coverage across our cooperative reduced fertiliser costs by close to 17 percent, and grain purchasers began offering a premium tied to traceability information. That outcome is the central idea of this proposal: technology generates returns only when the resulting data reaches a party willing to pay for it. Analysis Three pathways were assessed: extending the sensor network over the southern paddocks, purchasing a subscription to the regional yield-modelling service, and acquiring drone scouting hardware outright. The third route appears attractive, yet its depreciation schedule is punishing and our agronomy staff would lose much of their week maintaining batteries. The second option is quietly the strongest; it costs about 12 thousand dollars annually and plugs directly into the grain buyer's existing portal.",
+      "matched_passage": "Sensor Data as the Co-op's Next Revenue Line Executive Summary Our co-op's soil sensors cut fertiliser spend by roughly a sixth last season, and the grain buyers started paying us a premium for traceability data. That's the kernel of this submission: the tech pays only when the data flows to someone who'll pay for it. Analysis We looked at three options: expand the sensor grid across the southern paddocks, subscribe to the regional yield-model service, or buy the drone-scouting kit outright. Option three looks shiny, but the depreciation schedule is brutal and our agronomist team would spend half their week babysitting batteries. Option two is the sneaky-good deal; the service costs 12 grand a year and slots into the buyer's existing portal.",
+      "location": {
+        "query_page": 1,
+        "matched_page": 1
+      },
+      "lexical_jaccard": 0.28,
+      "query_chunk_id": "submission_09.docx#c000",
+      "matched_chunk_id": "submission_04.docx#c000"
+    },
+    {
+      "matched_file": "submission_04.docx",
+      "similarity_score": 0.861,
+      "query_passage": "The second option is quietly the strongest; it costs about 12 thousand dollars annually and plugs directly into the grain buyer's existing portal. Our preferred package combines option two with forty additional sensors rolled out across two seasons. Recommendation The rollout should carry a fallback clause should the buyer's premium be withdrawn. On drought resilience, the board should note that the yield model does not forecast rainfall; it simulates soil moisture, which is precisely the variable our insurance broker requires. Case Prompt (identical for all candidates - do not modify): You are a strategy consultant engaged by the City Development Authority. Rising demand on public services and tightening municipal budgets have created pressure to identify fundable, high-impact interventions. Your task is to evaluate the feasibility of two shortlisted infrastructure initiatives, quantify expected costs and benefits over a five-year horizon, and recommend a phased implementation plan.",
+      "matched_passage": "Option two is the sneaky-good deal; the service costs 12 grand a year and slots into the buyer's existing portal. We'd pair it with forty new sensors staged over two seasons. Recommendation Go with option two plus 40 new sensors, with a fall-back clause if the buyer's premium dries up. The co-op board asked about drought resilience; the yield model doesn't forecast rainfall, it models soil moisture, which is what our insurance broker actually needs. Case Prompt (identical for all candidates - do not modify): You are a strategy consultant engaged by the City Development Authority. Rising demand on public services and tightening municipal budgets have created pressure to identify fundable, high-impact interventions. Your task is to evaluate the feasibility of two shortlisted infrastructure initiatives, quantify expected costs and benefits over a five-year horizon, and recommend a phased implementation plan.",
+      "location": {
+        "query_page": 1,
+        "matched_page": 1
+      },
+      "lexical_jaccard": 0.581,
+      "query_chunk_id": "submission_09.docx#c001",
+      "matched_chunk_id": "submission_04.docx#c001"
+    }
+  ],
+  "multimodal_matches": [],
+  "explanations": "Peer overlap: 100% of this document aligns with submission_04.docx (strongest passage similarity 0.88, source page 1). A case-prompt/header template shared across 11 submissions was detected and discounted (160 boilerplate words excluded from scoring). No external reference overlap above threshold. AI-content estimate 49% (heuristic-burstiness: sentence-length variation 0.40 (low = uniform/AI-like), discourse-marker density 0.0/100 words). Verify the cited passages below against the source files before applying any penalty.",
+  "external_matches": [],
+  "boilerplate_discount": {
+    "chunks": 4,
+    "words": 160,
+    "files_sharing_template": 11
+  },
+  "processing": {
+    "modality": "docx",
+    "chunks": 6,
+    "language": null,
+    "duration_seconds": null,
+    "pages_estimated": 1,
+    "warnings": [],
+    "error": null,
+    "embedding_backend": "sentence-transformers",
+    "ai_backend": "heuristic-burstiness",
+    "ai_features": {
+      "sentence_length_cv": 0.403,
+      "transitions_per_100_words": 0.0,
+      "contractions": 0,
+      "polished_punct_per_100w": 0.95,
+      "first_person_hits": 0
+    }
+  }
+}

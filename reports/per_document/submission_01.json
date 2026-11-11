@@ -1,0 +1,76 @@
+{
+  "document_id": "submission_01.pdf",
+  "total_integrity_risk": "HIGH",
+  "scores": {
+    "peer_similarity_percentage": 100.0,
+    "external_similarity_percentage": 0.0,
+    "ai_generated_probability": 45.8
+  },
+  "peer_matches": [],
+  "multimodal_matches": [
+    {
+      "matched_file": "submission_02.docx",
+      "similarity_score": 1.0,
+      "query_passage": "Recommendation Phase one should cover the industrial estate feeders in year one and two, with rooftop installations contracted in tranches of sixty roofs so local electricians can compete. Phase two extends to schools and depots where roofs are simple and loads are predictable. The community opposed the landfill array at the last consultation, so we put it in phase three behind another traffic study. If grants from the state energy office land, the payback shortens by about eight months. Case Prompt (identical for all candidates - do not modify): You are a strategy consultant engaged by the City Development Authority. Rising demand on public services and tightening municipal budgets have created pressure to identify fundable, high-impact interventions. Your task is to evaluate the feasibility of two shortlisted infrastructure initiatives, quantify expected costs and benefits over a five-year horizon, and recommend a phased implementation plan.",
+      "matched_passage": "Recommendation Phase one should cover the industrial estate feeders in year one and two, with rooftop installations contracted in tranches of sixty roofs so local electricians can compete. Phase two extends to schools and depots where roofs are simple and loads are predictable. The community opposed the landfill array at the last consultation, so we put it in phase three behind another traffic study. If grants from the state energy office land, the payback shortens by about eight months. Case Prompt (identical for all candidates - do not modify): You are a strategy consultant engaged by the City Development Authority. Rising demand on public services and tightening municipal budgets have created pressure to identify fundable, high-impact interventions. Your task is to evaluate the feasibility of two shortlisted infrastructure initiatives, quantify expected costs and benefits over a five-year horizon, and recommend a phased implementation plan.",
+      "location": {
+        "query_page": 1,
+        "matched_page": 1
+      },
+      "lexical_jaccard": 1.0,
+      "query_chunk_id": "submission_01.pdf#c002",
+      "matched_chunk_id": "submission_02.docx#c002"
+    },
+    {
+      "matched_file": "submission_02.docx",
+      "similarity_score": 1.0,
+      "query_passage": "We estimate 6.8 million in capital cost and a 14-month build. The second option, distributed rooftop systems across 240 commercial roofs, costs about the same in aggregate but spreads delivery risk across many small contracts. It also sidesteps the substation spur because the network already has headroom on the affected feeders. Battery sizing is the awkward part; a 2 MWh store covers evening peaks in winter but sits idle most of the year. We sized batteries at 1.2 MWh and accepted a small amount of peak spillover in the worst fortnight. The finance model uses a municipal green bond; rate assumptions are conservative, a 4.9 percent coupon with a 25-year tenor. Recommendation Phase one should cover the industrial estate feeders in year one and two, with rooftop installations contracted in tranches of sixty roofs so local electricians can compete.",
+      "matched_passage": "We estimate 6.8 million in capital cost and a 14-month build. The second option, distributed rooftop systems across 240 commercial roofs, costs about the same in aggregate but spreads delivery risk across many small contracts. It also sidesteps the substation spur because the network already has headroom on the affected feeders. Battery sizing is the awkward part; a 2 MWh store covers evening peaks in winter but sits idle most of the year. We sized batteries at 1.2 MWh and accepted a small amount of peak spillover in the worst fortnight. The finance model uses a municipal green bond; rate assumptions are conservative, a 4.9 percent coupon with a 25-year tenor. Recommendation Phase one should cover the industrial estate feeders in year one and two, with rooftop installations contracted in tranches of sixty roofs so local electricians can compete.",
+      "location": {
+        "query_page": 1,
+        "matched_page": 1
+      },
+      "lexical_jaccard": 1.0,
+      "query_chunk_id": "submission_01.pdf#c001",
+      "matched_chunk_id": "submission_02.docx#c001"
+    },
+    {
+      "matched_file": "submission_02.docx",
+      "similarity_score": 1.0,
+      "query_passage": "Solar Microgrids for the Industrial Estate Executive Summary Rooftop solar paired with neighbourhood batteries can cut the authority's peak load by roughly a fifth within four years, and it pays for itself before the five-year mark if we phase the rollout correctly. Our recommendation is to start with the two feeders that serve the industrial estate, where demand is heaviest and roof space is already leased. Analysis The first option, a 4 MW ground-mounted array on the old landfill site, produces cheap daytime energy but needs a new substation spur, and the landfill cap complicates foundations. We estimate 6.8 million in capital cost and a 14-month build. The second option, distributed rooftop systems across 240 commercial roofs, costs about the same in aggregate but spreads delivery risk across many small contracts.",
+      "matched_passage": "Solar Microgrids for the Industrial Estate Executive Summary Rooftop solar paired with neighbourhood batteries can cut the authority's peak load by roughly a fifth within four years, and it pays for itself before the five-year mark if we phase the rollout correctly. Our recommendation is to start with the two feeders that serve the industrial estate, where demand is heaviest and roof space is already leased. Analysis The first option, a 4 MW ground-mounted array on the old landfill site, produces cheap daytime energy but needs a new substation spur, and the landfill cap complicates foundations. We estimate 6.8 million in capital cost and a 14-month build. The second option, distributed rooftop systems across 240 commercial roofs, costs about the same in aggregate but spreads delivery risk across many small contracts.",
+      "location": {
+        "query_page": 1,
+        "matched_page": 1
+      },
+      "lexical_jaccard": 1.0,
+      "query_chunk_id": "submission_01.pdf#c000",
+      "matched_chunk_id": "submission_02.docx#c000"
+    }
+  ],
+  "explanations": "Peer overlap: 100% of this document aligns with submission_02.docx (strongest passage similarity 1.00, source page 1). A case-prompt/header template shared across 11 submissions was detected and discounted (160 boilerplate words excluded from scoring). No external reference overlap above threshold. AI-content estimate 46% (heuristic-burstiness: sentence-length variation 0.41 (low = uniform/AI-like), discourse-marker density 0.0/100 words). Verify the cited passages below against the source files before applying any penalty.",
+  "external_matches": [],
+  "boilerplate_discount": {
+    "chunks": 4,
+    "words": 160,
+    "files_sharing_template": 11
+  },
+  "processing": {
+    "modality": "pdf",
+    "chunks": 7,
+    "language": null,
+    "duration_seconds": null,
+    "pages_estimated": 2,
+    "warnings": [],
+    "error": null,
+    "embedding_backend": "sentence-transformers",
+    "ai_backend": "heuristic-burstiness",
+    "ai_features": {
+      "sentence_length_cv": 0.415,
+      "transitions_per_100_words": 0.0,
+      "contractions": 0,
+      "polished_punct_per_100w": 0.73,
+      "first_person_hits": 0
+    }
+  }
+}

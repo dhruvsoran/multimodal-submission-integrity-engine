@@ -1,0 +1,100 @@
+{
+  "pair_threshold_pct": 20.0,
+  "evaluable_documents": 13,
+  "pairs_evaluated": 78,
+  "positives": 3,
+  "negatives": 75,
+  "tp": [
+    [
+      "pitch_12.mp4",
+      "submission_03.pdf",
+      81.7
+    ],
+    [
+      "submission_01.pdf",
+      "submission_02.docx",
+      100.0
+    ],
+    [
+      "submission_04.docx",
+      "submission_09.docx",
+      100.0
+    ]
+  ],
+  "fp": [],
+  "fn": [],
+  "tn_count": 75,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1": 1.0,
+  "false_positive_margins": {},
+  "ai_detection": {
+    "ground_truth": "submission_05.docx",
+    "top_scored": "submission_05.docx",
+    "ranking": [
+      [
+        "submission_05.docx",
+        62.9
+      ],
+      [
+        "submission_09.docx",
+        49.2
+      ],
+      [
+        "submission_01.pdf",
+        45.8
+      ],
+      [
+        "submission_02.docx",
+        45.8
+      ],
+      [
+        "submission_07.pdf",
+        44.3
+      ]
+    ],
+    "correct": true,
+    "margin": 13.7
+  },
+  "external_detection": {
+    "ground_truth": "submission_06.pdf",
+    "score": 52.2,
+    "detected_at_50pct": true,
+    "bleed_into_others": {}
+  },
+  "degraded_handling": {
+    "submission_11.pdf": {
+      "modality": "pdf",
+      "chunks": 0,
+      "language": null,
+      "duration_seconds": null,
+      "pages_estimated": null,
+      "warnings": [],
+      "error": "File is empty (zero bytes) - corrupted submission.",
+      "embedding_backend": "sentence-transformers",
+      "ai_backend": "heuristic-burstiness",
+      "ai_features": {}
+    },
+    "pitch_13.mp4": {
+      "modality": "mp4",
+      "chunks": 0,
+      "language": null,
+      "duration_seconds": null,
+      "pages_estimated": null,
+      "warnings": [],
+      "error": "Video has no audio track (silent video).",
+      "embedding_backend": "sentence-transformers",
+      "ai_backend": "heuristic-burstiness",
+      "ai_features": {}
+    }
+  },
+  "benign_originals_max_pair_cov": {
+    "submission_01.pdf": 0.0,
+    "submission_03.pdf": 0.0,
+    "submission_04.docx": 0.0,
+    "submission_07.pdf": 0.0,
+    "submission_08.docx": 0.0,
+    "submission_15.docx": 0.0,
+    "pitch_14.mp4": 0.0
+  }
+}

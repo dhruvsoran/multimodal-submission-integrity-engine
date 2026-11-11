@@ -1,0 +1,18 @@
+# Submission Integrity Engine - pinned for reproducibility (Python 3.9+)
+# Core pipeline
+numpy>=1.24
+scipy>=1.10
+scikit-learn>=1.3            # TF-IDF fallback + metric helpers
+pypdf>=4.0                   # PDF text extraction
+python-docx>=1.1             # DOCX extraction
+sentence-transformers>=2.7   # all-MiniLM-L6-v2 embeddings (pulls torch + transformers)
+faster-whisper>=1.0          # Whisper ASR (tiny/base) with word timestamps
+imageio-ffmpeg>=0.4.9        # bundled static ffmpeg for audio extraction + TTS muxing
+PyYAML>=6.0
+
+# Sample-dataset generation (also usable for quick local testing)
+reportlab>=4.0               # PDF generation for the synthetic dataset
+
+# Optional (auto-detected if present):
+#   faiss-cpu   - drop-in exact vector index (NumPy backend is the default)
+#   torch       - installed automatically with sentence-transformers
