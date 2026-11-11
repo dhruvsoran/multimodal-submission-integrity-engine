@@ -1,0 +1,85 @@
+{
+  "dataset": "sample_submissions",
+  "description": "Synthetic multi-format submission corpus for the Unstop AI/ML Engineer assessment. All text is original synthetic content written for this assessment; MP4 speech is offline Windows SAPI TTS. Ground-truth relationships are listed below and used as evaluation labels in EVALUATION.md.",
+  "file_counts": {
+    "pdf": 5,
+    "docx": 7,
+    "mp4": 3,
+    "total": 15
+  },
+  "shared_template_header": {
+    "text_snippet": "Case Prompt (identical for all candidates - do not modify): You are a strategy consultant engaged by the City Developmen...",
+    "quoted_by": [
+      "submission_01.pdf",
+      "submission_02.docx",
+      "submission_03.pdf",
+      "submission_04.docx",
+      "submission_05.docx",
+      "submission_06.pdf",
+      "submission_07.pdf",
+      "submission_08.docx",
+      "submission_09.docx",
+      "submission_10.docx",
+      "submission_15.docx"
+    ],
+    "expected_behavior": "Scenario 4: the shared case prompt must be detected as cross-corpus boilerplate and discounted, NOT scored as plagiarism."
+  },
+  "plagiarism_relations": [
+    {
+      "query": "submission_02.docx",
+      "source": "submission_01.pdf",
+      "relation": "exact_copy",
+      "signal": "peer",
+      "note": "Body text is word-for-word identical; format differs."
+    },
+    {
+      "query": "submission_09.docx",
+      "source": "submission_04.docx",
+      "relation": "paraphrase",
+      "signal": "peer",
+      "note": "Synonym-swapped rewording; lexical overlap low, semantic overlap high."
+    },
+    {
+      "query": "pitch_12.mp4",
+      "source": "submission_03.pdf",
+      "relation": "verbatim_spoken",
+      "signal": "peer / cross-modal",
+      "note": "Transcript contains a paragraph of the PDF verbatim (Scenario 1)."
+    },
+    {
+      "query": "submission_06.pdf",
+      "source": "reference_corpus/ev_charging_infrastructure.txt",
+      "relation": "external_copy",
+      "signal": "external",
+      "note": "Three paragraphs lifted near-verbatim from the open reference KB."
+    }
+  ],
+  "ai_generated": [
+    {
+      "file": "submission_05.docx",
+      "note": "LLM-style prose (uniform sentence length, heavy discourse markers, no contractions). Ground truth for the AI-content signal."
+    }
+  ],
+  "independent_originals": [
+    "submission_01.pdf",
+    "submission_03.pdf",
+    "submission_04.docx",
+    "submission_07.pdf",
+    "submission_08.docx",
+    "submission_15.docx",
+    "pitch_14.mp4"
+  ],
+  "degraded": [
+    {
+      "file": "submission_11.pdf",
+      "issue": "zero-byte corrupted PDF (Scenario 3)"
+    },
+    {
+      "file": "pitch_13.mp4",
+      "issue": "silent MP4 with no audio track (Scenario 3)"
+    }
+  ],
+  "low_content": [
+    "submission_10.docx"
+  ]
+}
